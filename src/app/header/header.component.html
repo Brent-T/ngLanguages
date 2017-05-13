@@ -14,10 +14,9 @@
                     <li role="presentation"><a href="#" class="nav-item">NIEUWS </a></li>
                     <li role="presentation"><a href="#" class="nav-item">CONTACT </a></li>
                     <li role="presentation"><a href="#" class="nav-item">FAQ </a></li>
-                    <li class="dropdown show"><a class="dropdown-toggle nav-item" data-toggle="dropdown" aria-expanded="false" href="#">NL <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                            <li role="presentation"><a href="#">EN - English</a></li>
-                            <li role="presentation"><a href="#">FR - Francais</a></li>
+                    <li class="dropdown">
+                        <ul>
+                            <li *ngFor="let lang of supportedLanguages" (click)="selectLang(lang.value)">{{ lang.value }}</li>
                         </ul>
                     </li>
                 </ul>

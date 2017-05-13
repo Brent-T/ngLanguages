@@ -10,7 +10,7 @@ const appRoutes: Routes = [
 		redirectTo: '/home',
 		pathMatch: 'full'
 	},
-  { path: 'home', component: HomePage },
+	{ path: 'home', component: HomePage },
 	{ path: '**', component: PageNotFound }
 ];
 

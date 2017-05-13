@@ -6,6 +6,8 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { TRANSLATION_PROVIDERS, TranslatePipe, TranslateService } from './../translate';
+
 import { HomePage } from './home-page/home-page.component';
 import { Header } from './header/header.component';
 import { AdvantagesList } from './advantages-list/advantages-list.component';
@@ -19,14 +21,15 @@ import { PageNotFound } from './page-not-found/page-not-found.component';
     Header,
     AdvantagesList,
     AdvantageItem,
-    PageNotFound
+    PageNotFound,
+    TranslatePipe
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     HttpModule
   ],
-  providers: [],
+  providers: [TRANSLATION_PROVIDERS, TranslateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
