@@ -22,7 +22,7 @@ export class Header {
         ];
 
         // set current langage
-        this.selectLang('fr');
+        this.selectLang('en');
     }
 
     selectLang(lang: string) {
