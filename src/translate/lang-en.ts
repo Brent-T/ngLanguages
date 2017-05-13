@@ -3,6 +3,5 @@
 export const LANG_EN_NAME = 'en';
 
 export const LANG_EN_TRANS = {
-    'error_message': 'English',
-    'hello world': 'hello world',
+    'page_not_found_message': 'Oops something went wrong!',
 };

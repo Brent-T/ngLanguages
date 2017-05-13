@@ -3,7 +3,5 @@
 export const LANG_NL_NAME = 'nl';
 
 export const LANG_NL_TRANS = {
-    'hello world': 'hallo wereld',
-    'error_message': 'nederalnds'
-
+    'page_not_found_message': 'Oops het lijkt erop dat iets niet meer werkt!',
 };
