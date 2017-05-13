@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { HomePage } from './home-page/home-page.component';
+import { Header } from './header/header.component';
 import { AdvantagesList } from './advantages-list/advantages-list.component';
 import { AdvantageItem } from './advantage-item/advantage-item.component';
 import { PageNotFound } from './page-not-found/page-not-found.component';
@@ -15,6 +16,7 @@ import { PageNotFound } from './page-not-found/page-not-found.component';
   declarations: [
     AppComponent,
     HomePage,
+    Header,
     AdvantagesList,
     AdvantageItem,
     PageNotFound
