@@ -12,6 +12,7 @@
 .nav-item {
     color: #FFF !important;
     padding: 21px 10px;
+    text-transform: uppercase;
 }
 
 .hero-technology {

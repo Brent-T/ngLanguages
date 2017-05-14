@@ -11,7 +11,6 @@ import { TRANSLATION_PROVIDERS, TranslatePipe, TranslateService } from './../tra
 import { HomePage } from './home-page/home-page.component';
 import { Header } from './header/header.component';
 import { AdvantagesList } from './advantages-list/advantages-list.component';
-import { AdvantageItem } from './advantage-item/advantage-item.component';
 import { PageNotFound } from './page-not-found/page-not-found.component';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { PageNotFound } from './page-not-found/page-not-found.component';
     HomePage,
     Header,
     AdvantagesList,
-    AdvantageItem,
     PageNotFound,
     TranslatePipe
   ],

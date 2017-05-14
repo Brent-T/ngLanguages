@@ -11,7 +11,7 @@ import { LANG_FR_NAME, LANG_FR_TRANS } from './lang-fr';
 export const TRANSLATIONS = new OpaqueToken('translations');
 
 // all traslations
-export const dictionary = {
+const dictionary = {
 	[LANG_EN_NAME]: LANG_EN_TRANS,
 	[LANG_NL_NAME]: LANG_NL_TRANS,
 	[LANG_FR_NAME]: LANG_FR_TRANS,
