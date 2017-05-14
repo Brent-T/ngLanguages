@@ -14,20 +14,20 @@ import { AdvantagesList } from './advantages-list/advantages-list.component';
 import { PageNotFound } from './page-not-found/page-not-found.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomePage,
-    Header,
-    AdvantagesList,
-    PageNotFound,
-    TranslatePipe
-  ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    HttpModule
-  ],
-  providers: [TRANSLATION_PROVIDERS, TranslateService],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		HomePage,
+		Header,
+		AdvantagesList,
+		PageNotFound,
+		TranslatePipe
+	],
+	imports: [
+		AppRoutingModule,
+		BrowserModule,
+		HttpModule
+	],
+	providers: [TRANSLATION_PROVIDERS, TranslateService],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }

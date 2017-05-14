@@ -1,11 +1,9 @@
-// app/translate/translate.pipe.ts
-
 import { Pipe, PipeTransform } from '@angular/core';
-import { TranslateService } from '../translate'; // our translate service
+import { TranslateService } from '../translate';
 
 @Pipe({
-    name: 'translate',
-    pure: false // impure pipe, update value when we change language
+	name: 'translate',
+	pure: false // impure pipe, update value when we change language
 })
 
 export class TranslatePipe implements PipeTransform {
@@ -14,7 +12,7 @@ export class TranslatePipe implements PipeTransform {
 
 	transform(value: string, args: any[]): any {
 		if (!value) return;
-		
+
 		return this._translate.instant(value);
 	}
 }

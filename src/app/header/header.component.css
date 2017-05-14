@@ -1,41 +1,41 @@
 .navbar-default {
-    border-color: rgba(248,248,248,0);
-    background-color: rgba(7,5,5,0.51);
-    margin: 0;
-    position: relative;
+	border-color: rgba(248,248,248,0);
+	background-color: rgba(7,5,5,0.51);
+	margin: 0;
+	position: relative;
 }
 
 .navbar-brand {
-    padding: 0;
+	padding: 0;
 }
 
 .nav-item {
-    color: #FFF !important;
-    padding: 21px 10px;
-    text-transform: uppercase;
+	color: #FFF !important;
+	padding: 21px 10px;
+	text-transform: uppercase;
 }
 
 .hero-technology {
-    background-attachment: fixed;
-    color: #fff;
-    text-align: center;
-    background: url(../../assets/banner.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    min-height: 500px;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+	background: url(../../assets/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 500px;
 }
 
 .hero-title {
-    margin: 20px;
-    color: #000;
+	margin: 20px;
+	color: #000;
 }
 
 .hero-subtitle {
-    max-width: 600px;
-    margin: 25px auto;
-    padding: 10px 15px;
-    background-color: rgba(0,0,0,0.36);
-    color: #fff;
+	max-width: 600px;
+	margin: 25px auto;
+	padding: 10px 15px;
+	background-color: rgba(0,0,0,0.36);
+	color: #fff;
 }
